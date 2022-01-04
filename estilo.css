@@ -10,6 +10,18 @@ a {
     padding: 5px;
 }
 
+a:hover {
+    background-color: rgba(228, 228, 228, 0.555);
+}
+
+a:active {
+    color: white;
+}
+
+a.atual {
+    text-decoration: underline;
+}
+
 #principal {
     width: 900px;
 }
